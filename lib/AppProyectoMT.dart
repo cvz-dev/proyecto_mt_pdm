@@ -84,6 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget _buildDrawer() {
     return Drawer(
       child: ListView(
+        padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
             decoration: BoxDecoration(color: verdeHenequen),
